@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayhan Ahza Widyamukti</title>
+    <link rel="shortcut icon" href="ambatukam.jpeg" type="image/x-icon" />
+    
+</head>
+<body bgcolor="gray" style="text-align: center;">
+     <div class="container">
+        <h1 style="color: white;">Latihan Formulir</h1>
+        <br action="next_page.html">
+        <fieldset style="width: fit-content; height: fit-content; margin: 0px auto;">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" placeholder="Masukkan nama lengkap" required>
+            <br>
+        </br>
+        <label for="password">Password</label>
+            <input type="text" id="passsword" placeholder="Masukkan Password" required>
+            <br>
+        </br>
+            <label for="tanggalTahun">Tanggal Tahun:</label>
+        <input type="date" id="tanggalTahun">
+        <br>   
+    </br>
+    <label>Jenis Kelamin:</label>
+            <input type="radio" id="laki-laki" name="jenis-kelamin" value="Laki-laki">
+            <label for="laki-laki">Laki-laki</label>
+            <input type="radio" id="perempuan" name="jenis-kelamin" value="Perempuan">
+            <label for="perempuan">Perempuan</label>
+            <br>
+        </br>
+        <label for="telepon">Nomor Telepon:</label>
+            <input type="number" id="telepon" placeholder="Nomor telepon" required>
+            <br>
+        </br>
+        <label for="kota">Asal Kota:</label>
+            <select id="kota" required>
+                <option value="Purwokerto">Purwokerto</option>
+                <option value="Jakarta">Jakarta</option>
+                <option value="Surabaya">Surabaya</option>
+                <option value="Bandung">Bandung</option>
+            </select>
+            <br>
+        </br>
+        <label for="alamat">Alamat:</label>
+            <textarea id="alamat" name="alamat" placeholder="Masukkan Alamat Anda" rows="4"></textarea>
+            <br>
+        </br>
+            <label>Hobi:</label>
+            <label for="menulis">
+                <input type="checkbox" id="menulis" name="hobi" value="Menulis" checked> Menulis
+            </label>
+            <label for="membaca">
+                <input type="checkbox" id="membaca" name="hobi" value="Membaca"> Membaca
+            </label>
+            <label for="berenang">
+                <input type="checkbox" id="berenang" name="hobi" value="Berenang"> Berenang
+            </label>
+            <br>
+            </br>
+            <label for="makanan">Makanan Favorit:</label>
+            <input type="text" id="makanan" list="makanan-list" placeholder="Pilih atau masukkan makanan">
+            <datalist id="makanan-list">
+                <option value="Nasi Goreng"></option>
+                <option value="Pizza"></option>
+                <option value="Sushi"></option>
+                <option value="Burger"></option>
+            </datalist>
+            <br>
+        </br>
+            <input type="submit" value="Next Page">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </div>
+</body>
+</html>
